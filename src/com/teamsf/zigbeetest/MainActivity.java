@@ -16,8 +16,8 @@ public class MainActivity extends Activity implements OnClickListener
 		
 		(findViewById ( R.id.main_btn_on )).setOnClickListener(this);
 		(findViewById ( R.id.main_btn_off )).setOnClickListener(this);
-
-		// dummy
+		(findViewById ( R.id.main_btn_dim_up )).setOnClickListener(this);
+		(findViewById ( R.id.main_btn_dim_down )).setOnClickListener(this);
 	}
 
 	@Override
